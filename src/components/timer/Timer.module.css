@@ -1,0 +1,7 @@
+.mainContainer {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    color: #5272E8;
+    font-size: 30px;
+}

@@ -1,0 +1,40 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #FFAB0D;
+    font-size: 30px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.imagen {
+    height: 60vh;
+    margin: 0;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.imagen:hover {
+    box-shadow: 0 0 20px #FFAB0D;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    color: #FFAB0D;
+    font-family: 'HarryP', sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    text-shadow: 0 0 10px #FFAB0D;
+}

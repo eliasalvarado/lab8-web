@@ -1,0 +1,35 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+.spanContainer {
+    font-size: 20px;
+}
+
+.inputContainer {
+    max-width: 100px;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 0.2em solid #FFAB0D;
+    border-right: 0.2em solid #FFAB0D;
+    border-right-style: outset;
+    background: none;
+    color: #FFAB0D;
+    font-size: 18px;
+    text-align: center;
+}
+
+.inputContainer::-webkit-inner-spin-button,
+.inputContainer::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
